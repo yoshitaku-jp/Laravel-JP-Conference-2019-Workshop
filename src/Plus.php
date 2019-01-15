@@ -1,6 +1,6 @@
 <?php
  
-namespace Plus;
+namespace Laracon;
  
 class Plus {
     // $a + $b を返す
