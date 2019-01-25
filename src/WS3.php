@@ -2,8 +2,8 @@
  
 namespace Laracon;
  
-class Plus {
-    // $a + $b を返す
+class WS3 {
+    
     public function Add($a, $b) {
         return $a + $b;
     }

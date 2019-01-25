@@ -2,7 +2,7 @@
  
 namespace Laracon;
  
-class Tax {
+class WS2 {
     // 0-13の数字 を返す
     public function CalPriIncTax($price, $taxRate) {
 
