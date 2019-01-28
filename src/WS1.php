@@ -3,7 +3,7 @@
 namespace Laracon;
  
 class WS1 {
-    // $a - $b を返す
+    // HelloWorld を返す
     public function HelloWorld() {
         return "HelloWorld";
     }
