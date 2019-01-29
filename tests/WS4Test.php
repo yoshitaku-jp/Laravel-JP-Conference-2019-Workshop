@@ -8,6 +8,6 @@ class WS4Test extends PHPUnit\Framework\TestCase {
         $this->assertEquals(31, $month->getDays(1) );
         $this->assertEquals(28, $month->getDays(2) );
         $this->assertEquals(30, $month->getDays(4) );
-        $this->assertEquals(0, $month->getDays(13) );
+        $this->assertEquals("引数は1-12で入力してください。", $month->getDays(13) );
     }
 }
