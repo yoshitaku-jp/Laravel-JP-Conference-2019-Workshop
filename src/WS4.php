@@ -21,7 +21,7 @@ class WS4 {
             case 2:
                 return 28;
             default:
-                return "引数は1-12で入力してください。";
+                throw new InvalidArgumentException("引数は1-12で入力してください。");
         }
     }
 }
