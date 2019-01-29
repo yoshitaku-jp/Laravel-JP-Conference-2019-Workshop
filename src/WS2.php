@@ -3,10 +3,9 @@
 namespace Laracon;
  
 class WS2 {
-    // 0-13の数字 を返す
+    // 消費税計算後の値 を返す
     public function CalPriIncTax($price, $taxRate) {
 
-        // 消費税の計算
         $afterprice = $price + $price * $taxRate;
 
         return $afterprice;
