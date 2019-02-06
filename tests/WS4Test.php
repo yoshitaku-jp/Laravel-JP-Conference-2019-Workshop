@@ -4,7 +4,7 @@ require_once(__DIR__ . '/../vendor/autoload.php');
 
 class WS4Test extends PHPUnit\Framework\TestCase
 {
-    public function test_getDays()
+    public function testGetDays()
     {
         $month = new Laracon\WS4();
         $this->assertEquals(31, $month->getDays(1));
@@ -12,7 +12,7 @@ class WS4Test extends PHPUnit\Framework\TestCase
         $this->assertEquals(30, $month->getDays(4));
     }
 
-    public function test_getDays_ThrowsInvalidArgumentException()
+    public function testGetDays_throwsInvalidArgumentException()
     {
         $month = new Laracon\WS4();
         $this->expectException(\InvalidArgumentException::class);

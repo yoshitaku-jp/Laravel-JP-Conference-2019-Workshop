@@ -5,7 +5,7 @@ namespace Laracon;
 class WS1
 {
     // HelloWorld を返す
-    public function HelloWorld()
+    public function helloWorld()
     {
         return "HelloWorld";
     }

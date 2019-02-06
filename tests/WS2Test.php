@@ -4,7 +4,7 @@ require_once(__DIR__ . '/../vendor/autoload.php');
 
 class TaxTest extends PHPUnit\Framework\TestCase
 {
-    public function test_tax()
+    public function testCalPriIncTax()
     {
         $tax = new Laracon\WS2();
 

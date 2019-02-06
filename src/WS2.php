@@ -5,10 +5,10 @@ namespace Laracon;
 class WS2
 {
     // 消費税計算後の値 を返す
-    public function CalPriIncTax($price, $taxRate)
+    public function calPriIncTax($price, $taxRate)
     {
-        $afterprice = $price + $price * $taxRate;
+        $afterPrice = $price + $price * $taxRate;
 
-        return $afterprice;
+        return $afterPrice;
     }
 }
