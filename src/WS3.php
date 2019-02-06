@@ -5,7 +5,7 @@ namespace Laracon;
 class WS3
 {
     // FizzBuzz を返す
-    public function fizzBuzz($num)
+    public function fizzBuzz(int $num): string
     {
         $result = "";
 

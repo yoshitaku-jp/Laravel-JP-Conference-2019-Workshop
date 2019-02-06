@@ -5,7 +5,7 @@ namespace Laracon;
 class WS4
 {
     // 月の日数 を返す
-    public function getDays($month)
+    public function getDays(int $month): int
     {
         switch ($month) {
             case 4:
