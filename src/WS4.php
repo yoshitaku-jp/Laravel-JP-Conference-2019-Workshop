@@ -1,11 +1,13 @@
 <?php
- 
+
 namespace Laracon;
- 
-class WS4 {
+
+class WS4
+{
     // 月の日数 を返す
-    public function getDays($month) {
-        switch($month){
+    public function getDays($month)
+    {
+        switch ($month) {
             case 4:
             case 6:
             case 9:

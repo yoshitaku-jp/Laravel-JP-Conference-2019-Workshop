@@ -1,10 +1,12 @@
 <?php
- 
+
 namespace Laracon;
- 
-class WS1 {
+
+class WS1
+{
     // HelloWorld を返す
-    public function HelloWorld() {
+    public function HelloWorld()
+    {
         return "HelloWorld";
     }
 }
